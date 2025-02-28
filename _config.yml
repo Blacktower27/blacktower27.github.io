@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Jingxi Lu / Academic Website"
+title                    : "Homepage"
 title_separator          : "-"
 name                     : &name "Jingxi Lu"
 description              : &description "Personal academic website showcasing research, publications, and projects."
@@ -230,6 +230,11 @@ collections:
   publications:
     output: true
     permalink: /publication/:title/
+  publications:
+    output: true
+    permalink: /publication/:title/
+
+
 
 
 # These settings control how pages and collections are included in the site

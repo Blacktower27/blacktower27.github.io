@@ -4,8 +4,6 @@ permalink: /publications/
 author_profile: true
 ---
 
-# Publications
-
 ## **Container Scheduling with Dynamic Computing Resource for Microservice Deployment in Edge Computing**  
 **Authors:** Jingxi Lu, Wenhao Li, Jianxiong Guo, Xingjian Ding, Zhiqing Tang, Tian Wang  
 **Conference:** MSN 2024 - 20th International Conference on Mobility, Sensing and Networking, *December 2024*  
