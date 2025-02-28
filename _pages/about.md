@@ -15,7 +15,7 @@ I am currently a master's student in Electrical and Computer Engineering at the 
 
 ## Who I Am
 
-- **Background**: I was born in Guangzhou, Guangdong Province, China, I have always been fascinated by mathematics, artificial intelligence, and robotics. My curiosity has driven me to explore the theoretical foundations and practical applications of artificial intelligence, with a particular focus on the application of deep learning and reinforcement learning in robotics.
+- **Background**: I was born in Guangzhou, Guangdong Province, China,  developed a strong interest in artificial intelligence and robotics. This passion has driven me to explore both the theoretical foundations and practical applications of AI, with a particular focus on deep learning and reinforcement learning in robotics.
 - **Professional Experience**: With hands-on experience in robotic control, reinforcement learning, and imitation learning, I have worked on projects like bipedal robot locomotion, humanoid robot imitation, aircraft recovery optimization, and IoT resource scheduling.
 - **Personal Interests**: Beyond research, I enjoy basketball and programming. Sports instill in me the resilience to persevere in the face of challenges and the courage to push forward without giving up.
 
