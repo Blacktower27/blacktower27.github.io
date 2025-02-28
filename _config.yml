@@ -29,7 +29,7 @@ author:
   pronouns         : "he/him"# example: "she/her"  
   bio              : "MSECE @ USC|AI Researcher|Reinforcement Learning|Robotic Control|Task Schaduling"
   location         : "Los Angeles, CA, USA"
-  employer         : "Univ. of Southern California"
+  employer         : "USC"
   uri              : # URL
   email            : "jingxil@usc.edu" 
 
@@ -227,6 +227,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  publications:
+    output: true
+    permalink: /publication/:title/
 
 
 # These settings control how pages and collections are included in the site
