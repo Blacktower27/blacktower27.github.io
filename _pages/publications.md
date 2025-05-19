@@ -14,7 +14,7 @@ With the rapid growth of **Internet of Things (IoT) devices**, deploying microse
 
 This paper formulates an **online microservice scheduling problem** with dynamic computing power to **minimize delay and energy consumption**. We propose a **Soft Actor-Critic (SAC)-based reinforcement learning algorithm** integrated with a **GRU-enhanced policy network** and an **action selection mechanism** for faster convergence. Experimental results show that our method **outperforms baseline algorithms by up to 65%** in total performance.  
 
-📄 [Download Paper](/files/A20240731683933.pdf)  
+📄 [Download Paper](/files/160200a236.pdf)  
 🔗 [DOI (Coming Soon)](#)  
 
 **Recommended Citation:**  
@@ -32,7 +32,7 @@ Column Generation is widely used in large-scale combinatorial problems, such as 
 
 This paper introduces a **reinforcement learning-based initialization method**, where an agent utilizes a **Graph Attention Network (GAT) with Proximal Policy Optimization (PPO)** to generate effective initial columns. Experimental results demonstrate that our approach significantly **accelerates column generation** and generalizes well across different network structures.  
 
-📄 [Download Paper](/files/160200a236.pdf)  
+📄 [Download Paper](/files/A20240731683933.pdf)  
 🔗 [DOI (Coming Soon)](#)  
 
 **Recommended Citation:**  
