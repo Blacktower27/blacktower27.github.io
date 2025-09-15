@@ -7,7 +7,7 @@ author_profile: true
 ## **Container Scheduling with Dynamic Computing Resource for Microservice Deployment in Edge Computing**  
 **Authors:** Jingxi Lu, Wenhao Li, Jianxiong Guo, Xingjian Ding, Zhiqing Tang, Tian Wang  
 **Conference:** MSN 2024 - 20th International Conference on Mobility, Sensing and Networking, *December 2024*  
-**Status:** Accepted, awaiting publication  
+**Status:** Published  
 
 ### Abstract  
 With the rapid growth of **Internet of Things (IoT) devices**, deploying microservices efficiently on resource-constrained edge nodes is a key challenge. Existing container scheduling algorithms often **neglect dynamic computing resource allocation**, assuming uniform CPU distribution, which is impractical.  
@@ -15,10 +15,10 @@ With the rapid growth of **Internet of Things (IoT) devices**, deploying microse
 This paper formulates an **online microservice scheduling problem** with dynamic computing power to **minimize delay and energy consumption**. We propose a **Soft Actor-Critic (SAC)-based reinforcement learning algorithm** integrated with a **GRU-enhanced policy network** and an **action selection mechanism** for faster convergence. Experimental results show that our method **outperforms baseline algorithms by up to 65%** in total performance.  
 
 📄 [Download Paper](/files/160200a236.pdf)  
-🔗 [DOI (Coming Soon)](#)  
+🔗 [DOI / IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/11036385)  
 
 **Recommended Citation:**  
-J. Lu, W. Li, J. Guo, X. Ding, Z. Tang, and T. Wang, "Container Scheduling with Dynamic Computing Resource for Microservice Deployment in Edge Computing," in MSN 2024.  
+J. Lu, W. Li, J. Guo, X. Ding, Z. Tang, and T. Wang, "Container Scheduling with Dynamic Computing Resource for Microservice Deployment in Edge Computing," in *Proc. MSN 2024*.  
 
 ---
 
