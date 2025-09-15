@@ -3,6 +3,22 @@ layout: archive
 title: "CV"
 permalink: /cv/
 author_profile: true
+---
+
+{% include base_path %}
+
+## **Curriculum Vitae**
+
+<object data="/assets/cv/LuJingxi_Resume.pdf" type="application/pdf" width="100%" height="1000px">
+  <p>Your browser does not support PDFs.  
+  <a href="/assets/cv/LuJingxi_Resume.pdf">Download the PDF</a>.</p>
+</object>
+
+<!-- ---
+layout: archive
+title: "CV"
+permalink: /cv/
+author_profile: true
 redirect_from:
   - /resume
 ---
@@ -72,4 +88,4 @@ redirect_from:
 Python, R, Matlab, Java, C, Go, HTML/CSS, PHP, JavaScript, SQL  
 
 ### **Technologies & Frameworks:**  
-PyTorch, TensorFlow, Docker, Flask, SpringBoot, Git, SPSS 
+PyTorch, TensorFlow, Docker, Flask, SpringBoot, Git, SPSS  -->
