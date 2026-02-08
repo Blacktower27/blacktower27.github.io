@@ -13,7 +13,6 @@ title                    : "Jingxi Lu"
 title_separator          : "-"
 name                     : &name "Jingxi Lu"
 description              : &description "Personal academic website showcasing research, publications, and projects."
-location                 : "Los Angeles, CA, USA"
 url                      : "https://blacktower27.github.io"
 baseurl                  : ""
 repository               : "Blacktower27/blacktower27.github.io"
@@ -268,7 +267,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comment: true
+      comments: true
   # _talks
   - scope:
       path: ""
