@@ -35,7 +35,7 @@ In this project, I contributed to integrating **vision-based terrain perception*
   Your browser does not support the video tag.
 </video>
 
----
+<!-- ---
 
 ## **Humanoid Robot Motion Imitation**
 Developed a control strategy for the humanoid robot **G1** using **imitation learning**, where a well-designed reward function enables the robot to accurately replicate the dynamic motion capture data of professional dancers.
@@ -48,7 +48,7 @@ Developed a control strategy for the humanoid robot **G1** using **imitation lea
   Your browser does not support the video tag.
 </video>
 
----
+--- -->
 
 ## **Bipedal Robot Locomotion using Reinforcement Learning**  
 Implemented a **PPO-based stable walking algorithm** for the bipedal robot **Hector** in Isaac Gym, utilizing an asymmetric actor-critic approach.
