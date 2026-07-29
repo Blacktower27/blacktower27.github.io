@@ -1,24 +1,29 @@
 {% include base_path %}
 
-{% if site.author.github or site.author.bitbucket or site.atom_feed.hide != true %}
-<div class="page__footer-follow">
-  <ul class="social-icons">
-    {% if site.data.ui-text[site.locale].follow_label %}
-      <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
+<div class="site-footer">
+  <div>
+    <strong>Jingxi Lu</strong>
+    <p>Safe learning and fault-tolerant control for legged and humanoid robots.</p>
+  </div>
+  <div class="site-footer__links" aria-label="Professional profiles">
+    <span>{{ site.author.email }}</span>
+    <a href="https://scholar.google.com/citations?hl=en&amp;user=UbDB6c4AAAAJ">Google Scholar</a>
+    <a href="https://github.com/{{ site.author.github }}">GitHub</a>
+    <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}">LinkedIn</a>
+  </div>
+  <div class="site-footer__bottom">
+    <p class="site-footer__copyright">&copy; {{ site.time | date: '%Y' }} Jingxi Lu</p>
+    {% if page.url == "/" %}
+      <a
+        class="site-footer__visitors"
+        href="https://info.flagcounter.com/ZV5Z"
+        aria-label="View geographic visitor statistics">
+        <img
+          src="https://s01.flagcounter.com/map/ZV5Z/size_s/txt_64707A/border_DCE1E4/pageviews_1/viewers_3/flags_0/"
+          width="400"
+          height="205"
+          alt="Map showing website visitor locations">
+      </a>
     {% endif %}
-    {% if site.author.github %}
-      <li><a href="https://github.com/{{ site.author.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
-    {% endif %}
-    {% if site.author.bitbucket %}
-      <li><a href="https://bitbucket.org/{{ site.author.bitbucket }}"><i class="fab fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
-    {% endif %}
-    {% if site.atom_feed.hide != true %}
-    <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
-    {% endif %}
-  </ul>
-</div>
-{% endif %}
-
-<div class="page__footer-copyright" style="text-align: center;">
-  &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. Last updated {{ "now" | date: '%B %d, %Y' }}.
+  </div>
 </div>

@@ -63,6 +63,9 @@ docker compose up
 ```
 
 You should now be able to access the website from `localhost:4000`.
+Docker Desktop must remain running while you preview the site. To keep the
+server in the background, use `docker compose up -d`; stop it with
+`docker compose down`.
 
 # Maintenance
 

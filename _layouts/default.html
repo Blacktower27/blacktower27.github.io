@@ -14,9 +14,12 @@ layout: compress
   <body>
 
     {% include browser-upgrade.html %}
+    <a class="skip-link" href="#main-content">Skip to main content</a>
     {% include masthead.html %}
 
-    {{ content }}
+    <main id="main-content">
+      {{ content }}
+    </main>
 
     <div class="page__footer">
       <footer>

@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<article class="publication-shell">
+  <a class="publication-back" href="/publications/">← All publications</a>
+  <p class="publication-meta">{{ page.status }} · {{ page.year }}</p>
+  <h1>{{ page.title }}</h1>
+  <p class="publication-shell__authors">{{ page.authors }}</p>
+  <p class="publication-shell__venue">{{ page.venue }}</p>
+  <div class="button-row">
+    {% if page.projecturl %}<a class="portfolio-button" href="{{ page.projecturl }}">Project</a>{% endif %}
+    {% if page.paperurl %}<a class="portfolio-button portfolio-button--primary" href="{{ page.paperurl }}">Paper</a>{% endif %}
+    {% if page.doiurl %}<a class="portfolio-button" href="{{ page.doiurl }}">DOI</a>{% endif %}
+    {% if page.codeurl %}<a class="portfolio-button" href="{{ page.codeurl }}">Code</a>{% endif %}
+    {% if page.videourl %}<a class="portfolio-button" href="{{ page.videourl }}">Video</a>{% endif %}
+  </div>
+  {% if content != "" %}
+    <div class="publication-content">{{ content }}</div>
+  {% endif %}
+</article>
